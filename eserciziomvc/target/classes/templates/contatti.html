@@ -1,0 +1,74 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<style>
+			a{color:white;}
+			a:hover{color:red;}
+			.form-control{width: 300px;}
+		</style>
+			<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+							
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index"><h1>HOME </h1></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chisono"><H1>CHI SONO </H1></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servizi"><H1>SERVIZI </H1></a>
+        </li>
+								 <li class="nav-item">
+          <a class="nav-link" href="contatti"><h1>CONTATTI</h1></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</head>
+
+<body>
+<center>
+<h1>CONTATTI</h1>
+<img src="https://www.aritorino.it/wp-content/uploads/2019/11/contact-us-1908762_640.png">
+<h4>
+	<table>	
+			<tr>EMAIL : tonyformy98@gmail.com</tr><br>
+			<tr>TELEFONO : 3517750126</tr><br>
+			<tr>INDIRIZZO : Torre Del Greco (NA) Via Nuova Trecase n28</tr><br>
+			<tr>INSTAGRAM : @Antonioformisano_</tr><br>
+	</table>
+</h4>
+<br><br>
+<hr><hr>
+<h3>REGISTRATI PER ESSERE CONTATTATO</h3>
+<form action="#" method="POST" th:action="@{/signup-submit}" th:object="${signupForm}">
+<h4>Nome</h4><input type="text" name="nome" class="form-control" placeholder= "inserisci nome" /><br><br>
+<h4>Cognome</h4><input type="text" name="cognome" class="form-control" placeholder= "inserisci cognome" /><br><br>
+<h4>Telefono</h4><input type="text" name="telefono" class="form-control" placeholder= "inserisci numero di telefono" /><br><br>
+<input type="submit" value="invia"/ class="btn btn-outline-success"><br><br><br>
+</form>
+
+</center>
+	
+</body>
+
+
+
+
+
+<footer>
+	<center>
+		
+		<hr><hr>
+		<h4>Copyright by Antonio Formisano 2022/2032</h4>
+	</center>
+	
+</footer>
+
+
+
+</html>
